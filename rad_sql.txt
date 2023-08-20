@@ -1,0 +1,168 @@
+Tablesapce Creation
+
+Create tablespace RAD141TBS datafile 'D:\OracleDB\oradata\FCUBS141\RAD141TBS.dbf' size 200M autoextend on EXTENT MANAGEMENT LOCAL UNIFORM SIZE 128K:
+
+Schema Creation
+
+create user rad141 identified by raad141 default tablespace RAD141TBS tempporary tablespace tmp quota unlimitd on RAD141TBS;
+
+user is RAD141
+
+Grants for RAD141
+===================================
+
+grant execute on dbms_sql to RAD141
+grant execute on dbms_lock To RAD141
+
+grant execute on dbms_defer query to RAD141
+grant execute on dbms_defer to RAD141
+
+grant execute on dbms_defer_sys to RAD141
+grant execute on dbms_job to RAD141
+
+grant execute on dbms_alert to RAD141
+
+grant execute on dbms_refresh to RAD141
+grant execute on dbms_pipe to RAD141
+
+grant execute on dbms_application_info to RAD141
+
+grant execute on dbms_aq to RAD141
+grant execute on dbms_shared_pool to RAD141
+grant execute on utl_file to RAD141
+grant select on v_$process to RAD141
+grant select on v_$session to RAD141 
+
+grant select on v_$timer to RAD141
+grant select on v_$database to RAD141
+grant select on v_$parameter to RAD141
+grant select on v_$nls_parameters to RAD141
+grant select on dba_jobs_running to RAD141
+grant create session to RAD141
+grant create synonym to RAD141
+grant create view to RAD141
+grant create sequence to RAD141 
+
+
+grant create table to RAD141
+grant create procedure to RAD141
+grant create trigger to RAD141
+grant create type to RAD141
+grant create library to RAD141
+grant create database link to RAD141
+grant create any synonym to RAD141
+grant select any table to RAD141
+grant create any materialized view to RAD141
+grant execute on dbms_pipe to RAD141
+grant execute any procedure to RAD141
+grant connect, resource to RAD141; 
+grant CREATE SESSION to RAD141; 
+grant CREATE TYPE to RAD141; 
+grant CREATE TRIGGER to RAD141; 
+grant CREATE TABLE to RAD141;
+grant CREATE DATABASE LINK to RAD141; 
+grant CREATE LIBRARY to RAD141;
+grant CREATE SYNONYM to RAD141;
+
+
+grant CREATE SYNONYM to RAD141;
+grant CREATE SEQUENCE to RAD141;
+grant CREATE VIEW to RAD141;
+grant CREATE MATERIALIZED VIEW to RAD141; 
+grant CREATE PROCEDURE to RAD141; 
+grant CREATE TABLESPACE to RAD141; 
+grant CREATE ANY SYNONYM to RAD141; 
+grant CREATE JOB to RAD141;
+grant EXECUTE ON UTL_RECOMP to RAD141; 
+grant EXECUTE ON DBMS_PIPE to RAD141; 
+grant EXECUTE ON DBMS_SQL to RAD141; 
+grant EXECUTE ON DBMS_SQL to RAD141; 
+grant EXECUTE ON DBMS_LOCK to RAD141; 
+grant EXECUTE ON DBMS_DEFER to RAD141; 
+grant EXECUTE ON DBMS_DEFER_SYS to RAD141; 
+grant EXECUTE ON DBMS JOB to RAD141; 
+grant EXECUTE ON DBMS_SCHEDULER to RAD141; 
+grant EXECUTE ON DBMS_ALERT to RAD141;
+-
+grant EXECUTE ON DBMS_REFRESH to RAD141;
+brant EXECUTE ON DBMS_SHARED_POOL to RAD141;
+-
+grant EXECUTE ON DBMS_APPLICATION_INFO to RAD141; 
+grant EXECUTE ON UTL_FILE to RAD141;
+grant EXECUTE ON DBMS_AQADM to RAD141; 
+grant EXECUTE ON DBMS_RLS to RAD141;
+grant EXECUTE ON DBMS_AQ to RAD141;
+grant EXECUTE ON DBMS_DEFER_QUERY to RAD141; 
+grant IMPORT FULL DATABASE to RAD141;
+grant SELECT ANY TABLE to RAD141;
+grant SELECT ON V_$PROCESS to RAD141; 
+grant SELECT ON V_$SESSION to RAD141; 
+grant SELECT ON V_$TIMER to RAD141; 
+grant SELECT ON V_$DATABASE to RAD141;
+grant SELECT ON V_$NLS_PARAMETERS to RAD141; 
+grant SELECT ON V_$INSTANCE to RAD141;
+grant SELECT ON DBA_JOBS RUNNING to RAD141;
+grant SELECT ON DBA_JOBS to RAD141; 
+grant SELECT ON GV_$LOCK to RAD141;
+grant execute on dbms_monitor to RAD141;
+
+
+grant select on v_$parameter to RAD141; 
+grant execute on dbms_crypto to RAD141; 
+grant select on DBA_DIRECTORIES to RAD141; 
+grant select on gv_$session to RAD141;
+grant select on redaction_policies to RAD141; 
+grant select on REDACTION_COLUMNS to RAD141; 
+grant execute on DBMS REDACT to RAD141; 
+grant execute on DBMS_UTILITY to RAD141; 
+grant select on dba_objects to MIGR14; 
+grant select on dba_triggers to MIGR14; 
+grant select on dba_constraints to MIGR14;
+grant CREATE MATERIALIZED VIEW to RAD141; 
+grant CREATE TABLESPACE to RAD141; 
+grant CREATE JOB to RAD141;
+grant EXECUTE ON UTL_RECOMP to RAD141; 
+grant EXECUTE ON DBMS_SCHEDULER to RAD141; 
+grant EXECUTE ON DBMS AQADM to RAD141; 
+grant EXECUTE ON DBMS RLS to RAD141; 
+grant IMPORT FULL DATABASE to RAD141; 
+grant SELECT ON V_$INSTANCE to RAD141; 
+grant SELECT ON DBA_JOBS to RAD141; 
+grant SELECT ON GV_SLOCK to RAD141; 
+grant connect, resource to RAD141; 
+grant CREATE SESSION to RAD141; 
+grant CREATE TYPE to RAD141;
+grant CREATE TRIGGER to RAD141;
+grant CREATE TABLE to RAD141;
+grant CREATE DATABASE LINK to RAD141;
+grant CREATE LIBRARY to RAD141;
+grant CREATE SYNONYM to RAD141;
+grant CREATE SEQUENCE to RAD141;
+grant CREATE VIEW to RAD141;
+grant CREATE MATERIALIZED VIEW to RAD141;
+
+
+grant CREATE PROCEDURE to RAD141; 
+grant CREATE TABLESPACE to RAD141; 
+grant CREATE ANY SYNONYM to RAD141; 
+grant CREATE JOB to RAD141;
+grant EXECUTE ON UTL_RECOMP to RAD141; 
+grant EXECUTE ON DBMS_PIPE to RAD141; 
+grant EXECUTE ON DBMS_SQL to RAD141; 
+grant EXECUTE ON DBMS_LOCK to RAD141; 
+grant EXECUTE ON DBMS_DEFER to RAD141; 
+grant EXECUTE ON DBMS_DEFER_SYS to RAD141; 
+grant EXECUTE ON DBMS_JOB to RAD141;
+grant EXECUTE ON DBMS_SCHEDULER to RAD141; 
+grant EXECUTE ON DBMS ALERT to RAD141; 
+grant EXECUTE ON DBMS_REFRESH to RAD141; 
+grant EXECUTE ON DBMS_SHARED_POOL to RAD141; 
+grant EXECUTE ON DBMS_APPLICATION_INFO to RAD141; 
+grant EXECUTE ON UTL_FILE to RAD141;
+-
+grant EXECUTE ON DBMS_AQADM to RAD141; 
+grant EXECUTE ON DBMS_RLS to RAD141;
+grant EXECUTE ON DBMS_AQ to RAD141;
+grant EXECUTE ON DBMS_DEFER_QUERY to RAD141;
+grant IMPORT FULL DATABASE to RAD141;
+grant SELECT ANY TABLE to RAD141;
